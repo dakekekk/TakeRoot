@@ -1,6 +1,6 @@
 <template>
 	<view>
-		大树
+		设置
 	</view>
 </template>
 

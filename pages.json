@@ -3,11 +3,23 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "打卡"
 			}
 		},
 		{
 			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "大树"
+			}
+		},
+		{
+			"path": "pages/plan/plan",
+			"style": {
+				"navigationBarTitleText": "计划"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
 			"style": {
 				"navigationBarTitleText": "设置"
 			}
@@ -29,13 +41,25 @@
 			    "pagePath" : "pages/index/index", //页面路径，必须pages中先定义
 			    "iconPath" : "static/logo.png", //图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效，不支持网络图片，不支持字体图标
 			    "selectedIconPath" : "static/logo.png", //选中时的图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效
-			    "text" : "首页"//tab上按钮文字，在5+和H5平台上为非必填
+			    "text" : "打卡"//tab上按钮文字，在5+和H5平台上为非必填
 			},
 			{
 			    "pagePath" : "pages/main/main", //页面路径，必须pages中先定义
 			    "iconPath" : "static/logo.png", //图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效，不支持网络图片，不支持字体图标
 			    "selectedIconPath" : "static/logo.png", //选中时的图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效
-			    "text" : "设置"//tab上按钮文字，在5+和H5平台上为非必填
+			    "text" : "园林"//tab上按钮文字，在5+和H5平台上为非必填
+			},
+			{
+			    "pagePath" : "pages/plan/plan", //页面路径，必须pages中先定义
+			    "iconPath" : "static/logo.png", //图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效，不支持网络图片，不支持字体图标
+			    "selectedIconPath" : "static/logo.png", //选中时的图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效
+			    "text" : "计划"//tab上按钮文字，在5+和H5平台上为非必填
+			},
+			{
+			    "pagePath" : "pages/setting/setting", //页面路径，必须pages中先定义
+			    "iconPath" : "static/logo.png", //图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效，不支持网络图片，不支持字体图标
+			    "selectedIconPath" : "static/logo.png", //选中时的图片路径，ICON大小限制为40kb,建议尺寸为81px*81px 当position为top时，此参数无效
+			    "text" : "我的"//tab上按钮文字，在5+和H5平台上为非必填
 			}
 		]
 	}
